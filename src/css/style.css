@@ -1,0 +1,29 @@
+/*reset basico*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    background-color: #ccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section-torneio .btn-add{
+    background-color: rgb(2, 91, 243);
+    padding: 5px;
+    color: #fff;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.section-torneio .position{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.section-torneio .times-class{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(166, 204, 255);
+    color: blue;
+}

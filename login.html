@@ -23,11 +23,11 @@
             <h2>Login</h2>
             <p>
                 <label for="usuario">Usuário:</label>
-                <input type="text" id="usuario" placeholder="Digite seu usuário"/>
-            </p>
+                <input type="text" id="usuario" placeholder="Digite seu usuário" required/>
+            </p>       <!--required so funciona dentro de form, em div por ex nao funciona-->
             <p>
                 <label for="senha">Senha:</label>
-                <input type="password" id="senha" placeholder="Digite sua senha"/>
+                <input type="password" id="senha" placeholder="Digite sua senha" required/>
             </p>
             <button type="submit" onclick="validar()">Logar</button>
         </form>
