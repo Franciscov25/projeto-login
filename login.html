@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <!--chamando o css externo-->
+    <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body>
     <header>
@@ -15,6 +17,26 @@
             </ul>
         </nav>
     </header>
-    
+
+    <section>
+        <form>
+            <h2>Login</h2>
+            <p>
+                <label for="usuario">Usuário:</label>
+                <input type="text" id="usuario" placeholder="Digite seu usuário"/>
+            </p>
+            <p>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" placeholder="Digite sua senha"/>
+            </p>
+            <button type="submit" onclick="validar()">Logar</button>
+        </form>
+    </section>
+
+
+
+
+    <!--chamando o JS externo-->
+    <script src="./src/js/script.js"></script>
 </body>
 </html>
